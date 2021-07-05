@@ -1,0 +1,75 @@
+
+/*common code for css*/
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #444444;
+    text-transform: uppercase;
+}
+.col-4{
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h3{
+    font-size: 17px;
+    font-weight: bold;
+    color: #444444;
+}
+
+figure{
+    margin: 0;
+}
+
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color:orange;
+}
+button{
+    background-image: linear-gradient(lightsalmon,tomato);
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border:none;
+}
+/* Welcome part starts */
+#welcome{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
